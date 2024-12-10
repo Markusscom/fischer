@@ -1,8 +1,8 @@
 const CastButton = document.getElementById("cast")
 
 CastButton.addEventListener("click", () => {
-    CastButton.classlist.add('SigmaAnimation')
+    CastButton.classList.add('SigmaAnimation')
     CastButton.addEventListener('animationend', () => {
-        CastButton.classlist.remove('SigmaAnimation');
+        CastButton.classList.remove('SigmaAnimation');
     });
 });

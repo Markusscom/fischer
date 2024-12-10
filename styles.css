@@ -72,14 +72,19 @@
 }
 
 @keyframes shake {
-    0% {transform: rotate(40deg)}
-    20% {transform: rotate(-40deg)}
-    40% {transform: rotate(40deg)}
-    60% {transform: rotate(-40deg)}
-    80% {transform: rotate(40deg)}
-    100% {transform: rotate(-40deg)}
+    0% {rotate: 40deg;}
+    10% {rotate: -40deg;}
+    20% {rotate: 40deg;}
+    30% {rotate: -40deg;}
+    40% {rotate: 40deg;}
+    50% {rotate: -40deg;}
+    60% {rotate: 40deg;}
+    70% {rotate: -40deg;}
+    80% {rotate: 40deg;}
+    90% {rotate: -40deg;}
+    100% {rotate: 40deg;}
 }
 
 .SigmaAnimation{
-    animation: shake 0.5s ease-in-out;
+    animation: shake 1s ease-in-out;
 }
